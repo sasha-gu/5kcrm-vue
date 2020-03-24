@@ -72,6 +72,7 @@ export default {
     // 快捷添加
     quickAddList() {
       var addItems = []
+      //会员
       if (this.crm.member && this.crm.member.save) {
         addItems.push({
           icon: 'customer',
